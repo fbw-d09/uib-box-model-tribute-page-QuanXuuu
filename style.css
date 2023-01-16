@@ -13,7 +13,7 @@ body
 h1
 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 main
@@ -28,19 +28,19 @@ img
 {
     border-radius: 5px;
     position: relative;
-    left: 45%;
+    left: 38%;
     border-left: 5px solid black;
 }
 
 main img + p
 {
     position: relative;
-    left: 40%;
+    left: 30%;
 }
 
 ul
 {
-    margin-top: 5em;
+    margin-top: 4em;
     line-height: 1.5;
     font-size: 1.2em;
     list-style-type: none;
@@ -57,16 +57,9 @@ div
     background-color: aliceblue;
     border-radius: 5px;
     margin: 3em;
+    padding: 0.5em 1em;
     position: relative;
     line-height: 1.5;
-}
-
-#name
-{
-    display: inline-block;
-    position: absolute;
-    right: 15px;  
-    top: 15px;
 }
 
 footer
@@ -81,10 +74,15 @@ footer
 footer p
 {
     position: relative;
-    left:700px;
+    left:450px;
 }
 
 footer p a
 {
     text-decoration: none;
+}
+
+footer p a:hover
+{
+    background-color: lightgray;
 }
