@@ -19,8 +19,9 @@ h1
 main
 {
     background-color: lightgray;
-    margin: 2em;
-    padding: 2em;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 img
@@ -70,15 +71,20 @@ div
 
 footer
 {
-    margin: 2em;
-    padding:2em;
     background-color: aliceblue;
-    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1em;
+    padding: 1em 0;
 }
 
 footer p
 {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+    position: relative;
+    left:700px;
+}
+
+footer p a
+{
+    text-decoration: none;
 }
