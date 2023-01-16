@@ -57,11 +57,28 @@ div
     border-radius: 5px;
     margin: 3em;
     position: relative;
+    line-height: 1.5;
 }
 
 #name
 {
+    display: inline-block;
+    position: absolute;
+    right: 15px;  
+    top: 15px;
+}
+
+footer
+{
+    margin: 2em;
+    padding:2em;
+    background-color: aliceblue;
+    position: relative;
+}
+
+footer p
+{
     position: absolute;
     right: 10px;
-    
+    bottom: 10px;
 }
